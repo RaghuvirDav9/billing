@@ -4,7 +4,7 @@
 (function (document) {
 	var
 	head = document.head = document.getElementsByTagName('head')[0] || document.documentElement,
-	elements = 'article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output picture progress section summary time video x'.split(' '),
+	elements = 'article aside audio anvas bdi cdata datalist details figcaption figure footer header hgroup mark meter nav output picture progress section summary time video x'.split(' '),
 	elementsLength = elements.length,
 	elementsIndex = 0,
 	element;
